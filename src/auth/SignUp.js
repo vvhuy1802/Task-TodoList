@@ -90,7 +90,7 @@ const SignUp = ({navigation}) => {
             width: 320,
             height: 50,
             borderWidth: 1,
-            borderColor: isEmailValid ? '#30D5C8' : 'red',
+            borderColor: '#30D5C8',
             borderRadius: 10,
             paddingLeft: 10,
           }}
@@ -104,7 +104,7 @@ const SignUp = ({navigation}) => {
             width: 320,
             height: 50,
             borderWidth: 1,
-            borderColor: isPasswordMatch ? '#30D5C8' : 'red',
+            borderColor: '#30D5C8',
             borderRadius: 10,
             paddingLeft: 10,
           }}
@@ -118,7 +118,7 @@ const SignUp = ({navigation}) => {
             width: 320,
             height: 50,
             borderWidth: 1,
-            borderColor: isPasswordMatch ? '#30D5C8' : 'red',
+            borderColor:'#30D5C8',
             borderRadius: 10,
             paddingLeft: 10,
           }}

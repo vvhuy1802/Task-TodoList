@@ -30,7 +30,8 @@ export default function HomeScreen() {
   const [modalVisible1, setModalVisible1] = useState(false);
   const [idChange, setIdChange] = useState('');
   const [todoName, setTodoName] = useState('');
-
+  const date = new Date();
+  const day = date.toISOString().slice(0, 10);
   const FormatDate = date => {
     return (StringDay = date.split('-')[2] + ' tháng ' + date.split('-')[1]);
   };
